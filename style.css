@@ -1,6 +1,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   margin: 0;
+  background-color: #fafafa;
 }
 
 header {
@@ -91,7 +92,7 @@ main {
   border-radius: 30px;
   width: 1136px;
   height: 600px;
-  background: rgba(17, 17, 17, 0.6);
+  background-image: url(./images/chocolate_main.jpg);
   padding: 0;
 }
 .text-start {
@@ -150,10 +151,6 @@ main {
   height: 45px;
   border-radius: 50px;
   border: 0px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-  color: white;
 }
 .btns-item3:hover {
   transform: scale(1.2);
@@ -285,11 +282,12 @@ main {
   margin: 0px 32px 120px 32px;
 }
 .process-head {
-  text-align: center;
   font-weight: 600;
   font-size: 24px;
   line-height: 1.16667;
+  letter-spacing: -0.03em;
   text-transform: uppercase;
+  text-align: center;
   color: #111;
 }
 .process-head-span {
@@ -322,4 +320,207 @@ main {
   justify-content: flex-start;
   flex-direction: column;
   gap: 24px;
+}
+.products {
+  margin: 0 32px 120px 32px;
+}
+.products-head {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16667;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+.products-head-span {
+  color: #fd9222;
+}
+.products-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 18px;
+  margin-top: 78px;
+}
+.products-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+  width: 270px;
+  height: 364px;
+  background: #fff;
+}
+.products-item-title {
+  margin: 8px 41px 2px 41px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+}
+.products-item-text {
+  margin: 0 80px 10px 80px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: -0.02em;
+  color: rgba(17, 17, 17, 0.7);
+}
+.products-item-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 18px 88px 32px 88px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 100px;
+  padding: 8px 20px;
+  width: 94px;
+  height: 33px;
+  background: #fafafa;
+  font-weight: 600;
+  font-size: 14px;
+  color: #111;
+}
+.top-sellers {
+  margin: 0 32px 120px 32px;
+}
+.top-sellers-head {
+  margin-bottom: 50px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16667;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+.top-sellers-head-span {
+  color: #fd9222;
+}
+.top-sellers-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 16px;
+}
+.top-sellers-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+}
+.top-sellers-title {
+  margin-top: 28px;
+  margin-bottom: 28px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33333;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+}
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 0 32px 120px 32px;
+}
+.review-head {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16667;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+.review-head-span {
+  color: #fd9222;
+}
+.review-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 16px;
+  margin: 50px 0;
+}
+.review-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.review-img {
+  border-radius: 100%;
+  margin-bottom: -40px;
+  z-index: 10;
+}
+
+.review-item-p {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 9px 100px 0 rgba(17, 17, 17, 0.03);
+  background: #fff;
+  width: 360px;
+  height: 200px;
+}
+.review-name {
+  margin-top: 55px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33333;
+  text-align: center;
+  color: #111;
+}
+.review-text {
+  margin: 0 25px 25px 24px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.7);
+}
+.review-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fd9222;
+  background-color: transparent;
+  border-radius: 100px;
+  padding: 14px 40px;
+  height: 45px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #111;
+}
+.review-btn:hover {
+  transform: scale(1.1);
+}
+.review-btn {
+  transition: transform 0.5s ease;
+}
+footer {
+  background: #1e1823;
+}
+.contacts-head {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21429;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+.contacts-head-span {
+  color: #fd9222;
 }
